@@ -83,12 +83,15 @@ export default function Contact() {
           </div>
 
           <a
-            href="#resume"
+            href="/resume/Roy%20Mathew.pdf"
+            download="Roy Mathew.pdf"
+            target="_blank"
+            rel="noreferrer"
             className="flex items-center gap-2 text-sm text-muted hover:text-accent transition-colors group"
-            aria-label="Jump to resume section"
+            aria-label="Download resume"
           >
             <Download size={16} className="group-hover:-translate-y-1 transition-transform" />
-            <span>RESUME</span>
+            <span>DOWNLOAD RESUME</span>
           </a>
         </div>
       </div>
